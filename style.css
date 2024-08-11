@@ -1,0 +1,237 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Roboto;
+  font-weight: 50;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.nav {
+  background-color: red;
+  height: 5%;
+  width: 100%;
+  display: flex;
+}
+
+button {
+  border-width: 0;
+  letter-spacing: 3px;
+}
+
+.nav1 {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav2 {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.nav1 button {
+  height: 80%;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  background-color: #000000;
+  color: white;
+}
+
+.nav2 button {
+  height: 80%;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  background-color: #000000;
+  color: white;
+}
+
+#picture {
+  margin-top: 15px;
+  margin: 5px;
+  height: 35vw;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  background-image: url(https://ferrari-view.thron.com/api/xcontents/resources/delivery/getThumbnail/ferrari/1920x1080/4537ac6f-4892-49d9-9aec-03e03b93108c.jpg?v=129);
+  opacity: 0.4;
+}
+
+#intro {
+  color: white;
+  font-family: Roboto;
+  font-size: xx-large;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 10px;
+  margin-top: 60px;
+}
+
+#discover {
+  margin-top: 35px;
+  text-align: center;
+  height: 5vh;
+  width: 100%;
+  color: white;
+  letter-spacing: 10px;
+}
+
+#icon {
+    position: relative;
+    height: 71px;  /* Increased height to make room for the icon */
+    width: 100%;   /* Full width to allow centering */
+    text-align: center;
+    margin-top: 20px;  /* Add some space above the icon */
+    /* margin: 10px; */
+}
+
+#icon i {
+    font-size: 24px;  /* Adjust size as needed */
+    color: white;     /* Make the icon white to match your color scheme */
+    animation: bounce 2s infinite;  /* Add a bouncing animation */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-15px);}
+    60% {transform: translateY(-7px);}
+} 
+
+#podium1 {
+    height: 15vw;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+#car1 {
+    margin: 20px;
+    height: 15vw;
+    width: 50%;
+    background-color: #142142;
+    border-radius: 50px;
+    background-image: url(https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/red-bull-racing.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#driver1 {
+    margin: 20px;
+    height: 15vw;
+    width: 30%;
+    background-color: #142142;
+    border-radius: 50px;
+    background-image: url(https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+
+#podium2 {
+    height: 15vw;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+#car2 {
+    margin: 20px;
+    height: 15vw;
+    width: 50%;
+    background-color: #E42528;
+    border-radius: 50px;
+    background-image: url(https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/ferrari.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#driver2 {
+    margin: 20px;
+    height: 15vw;
+    width: 30%;
+    background-color: #E42528;
+    border-radius: 50px;
+    background-image: url(https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+#podium3 {
+    height: 15vw;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#car3 {
+    margin: 20px;
+    height: 15vw;
+    width: 50%;
+    background-color: #00A19B;
+    border-radius: 50px;
+    background-image: url(https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/mercedes.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#driver3 {
+    margin: 20px;
+    height: 15vw;
+    width: 30%;
+    background-color: #00A19B;
+    border-radius: 50px;
+    background-image: url(https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+
+#last-race-podium {
+    margin-top: 35px;
+    text-align: center;
+    height: 5vh;
+    width: 100%;
+    color: white;
+    letter-spacing: 10px;
+  }
+
+#socials {
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    background: rgb(135, 129, 129);
+    display: flex;
+    justify-content: center;
+}
+
+#socials i {
+    font-size: 30px;
+    margin: 30px;
+}
