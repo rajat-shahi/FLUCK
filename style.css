@@ -124,6 +124,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
+    opacity: 0.8;
 }
 
 #car1 {
@@ -156,6 +157,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
+    opacity: 0.8;
 }
 
 #car2 {
@@ -188,6 +190,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    opacity: 0.8;
 }
 
 #car3 {
