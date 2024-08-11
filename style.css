@@ -238,3 +238,8 @@ button {
     font-size: 30px;
     margin: 30px;
 }
+
+button:hover {
+  background-color: white;
+  color: black;
+}
